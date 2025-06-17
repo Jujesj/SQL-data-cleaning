@@ -51,4 +51,7 @@ This project demonstrates thorough data cleaning and preparation using MySQL on 
 
 3) Git for version control
 
+# Dataset
+Nashville housing dataset (CSV format), sourced from Kaggle.
+
 
