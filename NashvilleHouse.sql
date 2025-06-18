@@ -583,5 +583,8 @@ select * from NashvilleHouse;
 ------------------------------------------------------------------------------------------------------------------------------
 /*Delete Unused Column*/
 
-alter table NashvilleHouse 
-drop Column `OwnerAddress`, `TaxDistrict`, `PropertyAddress`, `SaleDate`;
+ALTER TABLE NashvilleHouse DROP COLUMN `OwnerAddress`;
+ALTER TABLE NashvilleHouse DROP COLUMN `TaxDistrict`;
+ALTER TABLE NashvilleHouse DROP COLUMN `PropertyAddress`;
+
+SELECT * FROM NashvilleHouse;
